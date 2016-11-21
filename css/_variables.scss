@@ -17,36 +17,4 @@ $red: #cc3333;
 
 
 
-/*  --- RESPONSIVE ---  */
 
-@media screen and (max-width: 700px) {
-
-    #buttonsGroup{
-        h2 {
-            font-size: 35px;
-        }
-    }
-
-    #racetrack{
-        .dog {
-            width: 100px;
-        }
-        #dog1 {
-            top: 25px;
-        }
-        #dog2 {
-            top: 115px;
-        }
-    }
-
-    #raceInfoContainer {
-        width: 100%;
-        .raceInfo{
-            span {
-                font-size: 14px;
-                padding: 15px 4px;
-            }
-        }
-    }
-
-}
