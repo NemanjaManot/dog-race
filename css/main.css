@@ -487,10 +487,11 @@ header {
   -webkit-border-radius: 28px;
   -moz-border-radius: 28px;
   border-radius: 28px;
-  border: 0;
+  border: 1px solid #ffcc33;
   color: #fff;
   background: #cc3333;
   padding: 10px 20px 10px 20px;
+  font-weight: bold;
 }
 #buttonsGroup .clickButtons:active {
   background: #ffcc33;

@@ -10,7 +10,7 @@ $(function() {
             if( isComplete == false ) {
                 isComplete = true;
             } else {
-                place = 'This is one very a slow dog. He is finished after ';
+                place = 'This is a very slow dog. He is finished after ';
             }
             
         }
@@ -30,7 +30,7 @@ $(function() {
         var isComplete = false;
         
         // set a 'flag' variable to WINNER by default
-        var place = 'This is a WINNER, lady and gentlemen. Speedy Gonzales with ';
+        var place = 'This is a WINNER, ladies and gentlemen. Speedy Gonzales with ';
         
         // animate dog 1
         $('#dog1').animate({
