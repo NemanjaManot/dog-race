@@ -1,0 +1,52 @@
+/* -- Boje -- */
+
+$mainBackground: #1E291F;
+$yellow: #ffcc33;
+$red: #cc3333;
+
+
+
+/*  --- Mixins --- */
+
+@mixin border-radius($radius) {
+	-webkit-border-radius: $radius;
+	-moz-border-radius: $radius;
+	border-radius: $radius;
+}
+
+
+
+
+/*  --- RESPONSIVE ---  */
+
+@media screen and (max-width: 700px) {
+
+    #buttonsGroup{
+        h2 {
+            font-size: 35px;
+        }
+    }
+
+    #racetrack{
+        .dog {
+            width: 100px;
+        }
+        #dog1 {
+            top: 25px;
+        }
+        #dog2 {
+            top: 115px;
+        }
+    }
+
+    #raceInfoContainer {
+        width: 100%;
+        .raceInfo{
+            span {
+                font-size: 14px;
+                padding: 15px 4px;
+            }
+        }
+    }
+
+}
