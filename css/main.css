@@ -449,30 +449,6 @@ template {
 
 /* -- Boje -- */
 /*  --- Mixins --- */
-/*  --- RESPONSIVE ---  */
-@media screen and (max-width: 700px) {
-  #buttonsGroup h2 {
-    font-size: 35px;
-  }
-
-  #racetrack .dog {
-    width: 100px;
-  }
-  #racetrack #dog1 {
-    top: 25px;
-  }
-  #racetrack #dog2 {
-    top: 115px;
-  }
-
-  #raceInfoContainer {
-    width: 100%;
-  }
-  #raceInfoContainer .raceInfo span {
-    font-size: 14px;
-    padding: 15px 4px;
-  }
-}
 #wrapper {
   margin: 0 auto;
   width: 100%;
@@ -572,4 +548,29 @@ hr {
   content: "";
   display: table;
   clear: both;
+}
+
+/*  --- RESPONSIVE ---  */
+@media screen and (max-width: 700px) {
+  #buttonsGroup h2 {
+    font-size: 35px;
+  }
+
+  #racetrack .dog {
+    width: 100px;
+  }
+  #racetrack #dog1 {
+    top: 25px;
+  }
+  #racetrack #dog2 {
+    top: 115px;
+  }
+
+  #raceInfoContainer {
+    width: 100%;
+  }
+  #raceInfoContainer .raceInfo span {
+    font-size: 14px;
+    padding: 15px 4px;
+  }
 }
